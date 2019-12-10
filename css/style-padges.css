@@ -1,0 +1,836 @@
+/* new-offer/new-product style */
+    .new-offer-new-product .new-offer-new-product-content{
+        background: #ececec;
+        width: 80%;
+        margin: 1.5rem auto;
+        border-radius: 23px;
+        text-align: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }.new-offer-new-product h1{
+        color:#f63b56;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+
+    .new-offer-new-product .new-offer-new-product-content img{
+        width: 20%;
+        margin: 0.5rem;
+    }
+    .new-offer-new-product .new-offer-new-product-content input[type=text],
+    .new-offer-new-product .new-offer-new-product-content input[type=password],
+    .new-offer-new-product .new-offer-new-product-content select,
+    .new-offer-new-product .new-offer-new-product-content textarea{
+        display: block;
+        width: 70%;
+        margin: 1.8rem auto;
+        background: #f5f5f5;
+        border: none;
+        padding: .8rem 1rem;
+        border-radius: 23px;
+    }
+    .new-offer-new-product .new-offer-new-product-content textarea{
+        resize: none;
+        height: 8.5rem;
+    }
+    .new-offer-new-product .new-offer-new-product-content .start-end{
+        display: flex;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    .new-offer-new-product .new-offer-new-product-content .start-end p{
+        background: #ccc;
+        padding: .8rem;
+        margin-left: .8rem;
+        border-radius: 16px;
+        width: 14%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .new-offer-new-product .new-offer-new-product-content .start-end p i{
+        font-size: 1.5rem;
+    }
+    .new-offer-new-product .new-offer-new-product-content input[type=submit]{
+        background: #f63b56;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 5.5rem;
+        margin-top: 1.5rem;
+}
+/*/ new-offer/new-product style */
+/* myacountstyle */
+    .myacount .myacount-content{
+        background: #a40c4b;
+        width: 80%;
+        color:#fff;
+        margin: 1.5rem auto;
+        border-radius: 23px;
+        text-align: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    
+    }
+    .myacount .myacount-content img{
+        width: 20%;
+        margin: 0.5rem;
+    }
+    
+    .myacount .myacount-content input[type=text],
+    .myacount .myacount-content textarea{
+        display: block;
+        width: 70%;
+        margin: 1.8rem auto;
+        background: #fff;
+        border: none;
+        padding: .8rem 1rem;
+        border-radius: 23px;
+    }
+    .myacount .myacount-content textarea{
+        resize: none;
+        height: 8.5rem;
+    }
+    .myacount .myacount-content input[type=submit]{
+        background: #33124e;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        padding: .8rem 4.5rem;
+        margin-top: 1.5rem;
+}
+/* /myacount style */
+/* contact-us style */
+    .myacount .radio{
+        padding-left: 5.5rem;
+        font-size: 2vw;
+    }
+    .myacount .radio input[type="radio"]{
+
+    }
+    .myacount .radio span{
+        padding-right: 5.5rem;
+        padding-left: .5rem;
+    }
+
+/* my-orders style */
+    .nav-order .nav-order-content{
+        background: #ed3655;
+        /* padding: 1.5rem; */
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-order .nav-order-content a{
+        color: #fff;
+        font-size: 1.8rem;
+        padding: 1.5rem;
+        
+    }
+    .nav-order .nav-order-content a.active{
+        border-bottom: 3px solid #2a0945;
+    }
+    .nav-order .nav-order-content a:hover{
+        text-decoration: none;
+    }
+    .my-orders .my-orders-content{
+        width: 80%;
+        margin: 1.5rem auto;
+        background: #ececec;
+        display: flex;
+        
+        padding: 2.5rem;
+        border-radius: 23px;
+    }
+    .my-orders .my-orders-content img{
+        width: 23%;
+        height: 50%;
+        border-radius: 50%;
+        border: 2px solid #ed3655;
+    }
+    .my-orders .my-orders-content .my-orders-details{
+        margin-right: .7rem;
+        margin-top: .8rem;
+    }
+    .my-orders .my-orders-content .my-orders-details h3{
+        color: #ed3655;
+        margin-bottom: .9rem;
+    }
+    .my-orders .my-orders-content .my-orders-details p{
+        color: #888;
+        font-size: 1.1rem;
+    }
+    .my-orders .my-orders-content .my-orders-btn{
+        display: flex;
+        flex-direction: column;
+        margin-right: 15.5rem;
+        margin-top: 2.5rem;
+
+    }
+    .my-orders .my-orders-content .my-orders-btn .btn-primary,
+    .my-orders .my-orders-content .my-orders-btn .btn-secondary
+    {
+        background: #3c9021;
+        border: none;
+        padding: 0.7rem 2.3rem;
+        margin-bottom: .8rem;
+        border-radius: 23px;
+    }
+    .my-orders .my-orders-content .my-orders-btn .btn-secondary{
+        background: #ed3655;  
+    }
+    .my-orders .my-orders-content .my-orders-btn .btn-primary.bt2{
+        background: #2a0945;
+    }
+    .my-orders .my-orders-content.current {
+        flex-direction: column;
+    }
+    .my-orders .my-orders-content.current .my-orders-details {
+        display: flex;
+    }
+    .my-orders .my-orders-content.current .my-orders-details .para{
+        padding-right: 1.2rem;
+        padding-top: .8rem;
+    }
+    .my-orders .my-orders-content.my-orders-content.current .para h3{
+        color:#000;
+    }
+    .my-orders .my-orders-content.my-orders-content.current .para p{
+        color:#a3080c;
+    }
+    .my-orders .my-orders-content.my-orders-content.current .my-orders-btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto; 
+       
+        margin-top: 2.5rem;
+    }
+    
+    .my-orders .my-orders-content.my-orders-content.current .my-orders-btn .btn-primary,
+    .my-orders .my-orders-content.my-orders-content.current .my-orders-btn .btn-secondary{
+        padding: .8rem 4.5rem;
+        margin-left: 2.5rem;
+        border-radius: 27px;
+        font-size: 1.3rem;
+    
+    }
+/* /my-orders style */
+/* offers style */
+    .offer{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        text-align: center;
+    }
+    .offer h1{
+        margin-right: .8rem;
+        margin-bottom: 1.5rem;
+        padding-right: 1.3rem;
+        border-right: 3px solid #000;
+        color: #ed3655;
+        text-align: right;
+    }
+    .offer .btn-primary{
+        background: #d42651;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 5.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .offer .offer-content{
+        margin: 0.8rem;
+        border-radius: 23px;
+
+    }
+    .offer .offer-content img{
+        width: 100%;
+        border-radius: 10px;
+    }
+/* /offers style */
+/* cart style */
+    .cart {
+        background: url("../images/cart-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .cart .cart-content{
+        width: 60%;
+        margin: 2.5rem auto; 
+        padding: 2.5rem;
+        border-radius: 23px;
+        background: #fff;
+        box-shadow: 5px 5px 10px grey;
+    }
+    .cart .cart-content.ca{
+        background: none;
+        box-shadow: 0px 0px 0px grey;
+        padding-top: 4.5rem;
+        padding-bottom: 30.5rem;
+    }
+    .cart .cart-content.ca h3{
+        font-weight: bold;
+        word-spacing: .3rem;
+        margin-bottom: 5.5rem;
+    }
+    .cart .cart-content.ca .btn-primary{
+        padding: .8rem 3.5rem;
+    }
+    .cart .cart-content .cart-para-img{
+        display: flex;
+    }
+    .cart .cart-content img{
+        width: 30%;
+        height: 50%;
+        border-radius: 10px;
+    }
+    .cart .cart-content .cart-details{
+        margin-right: .7rem;
+        font-weight: bold;
+        text-align: right;
+    }
+    .cart .cart-content .cart-details .amount{
+        display: flex;
+    }
+    .cart .cart-content .cart-details .amount p{
+        padding-left: .5rem;
+    }
+    .cart .cart-content .cart-details .amount input{
+        text-align: center;
+        background: #ccc;
+        border: none;
+        width: 45px;
+        height: 30px;
+    }
+    .cart .cart-content .btn-primary{
+        background: #d42651;
+        color: #fff;
+        border: none;
+        font-size: 1.3rem;
+        border-radius: 23px;
+        padding: .5rem 4.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+/* /cart style */
+/* register style */
+   .new-offer-new-product.register{
+        background: url("../images/bg img.png");
+        
+    }
+    .new-offer-new-product.register .new-offer-new-product-content{
+        background: #fff;
+        width: 70%;
+        box-shadow:5px 5px 10px grey; 
+        margin-top: 2.5rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content input{
+        padding: 1rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content input[type=submit]{
+        padding: .5rem 5.5rem;
+        background: #d42651;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-img{
+        display: flex;
+        padding-right: 8rem;
+        padding-bottom: .5rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-img p{
+        padding-left: .5rem;
+        padding-top: 1.5rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content > p{
+        font-size: .8rem;
+        text-align: right;
+        padding-right: 8rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content p span{
+        color:#a40c4b;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-link{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-link a{
+        color: #d42651;
+        font-size: 1.3rem;
+    }
+    .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .btn-primary{
+        background: #d42651;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 2.5rem;
+    }
+/* register style */
+/* resturent style */
+    .resturent-img{
+        background: url("../images/Group 1038.jpg");
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        text-align: center;
+    }
+    .resturent-img h3{
+        color:#fff;
+        padding-top: 1.5rem;
+    }
+    .resturent{
+        background: url("../images/Group 1034-min.png"); 
+        
+    }
+    .resturent .resturent-content{
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    .resturent .resturent-content h1{
+        color: #33124e;
+        padding-bottom: 2.5rem;
+    }
+    .resturent .resturent-content .btn-primary{
+        background: #d42651;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 4.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .resturent .resturent-content .resturent-details{
+        background: #fff;
+        padding-bottom: .9rem;
+        border-radius: 23px;
+        margin-bottom: 1.5rem;
+    
+    }
+    .resturent .resturent-content .resturent-details img{
+        width: 100%;
+        height: 60%;
+        border-radius: 23px;
+    }
+    .resturent .resturent-content .resturent-details h3{
+        color: #d42651;
+        padding-top: .7rem;
+        padding-bottom: .7rem;
+    }
+    .resturent .resturent-content .resturent-details h6{
+        padding-bottom: .8rem;
+    }
+    .resturent .resturent-content .resturent-details p{
+        text-align: right;
+        padding-right: 1.2rem;
+        font-size: 1.2rem;
+        color: #ed3655;
+    }
+    .resturent .resturent-content .resturent-details p img{
+        width: 10%;
+        margin-left: .5rem;
+    }
+    .resturent .resturent-content .resturent-details .btn-primary{
+        background: url("../images/download button-min.png");
+        margin-bottom: 1.5rem;
+        margin-top: .8rem;
+        padding: .5rem 2.5rem;
+    }
+/* meal style */
+    .meal{
+        background: url("../images/322549-P987TQ-635.jpg");
+    }
+    .meal .meal-content{
+        width: 90%;
+        margin: 1.5rem auto;
+        text-align: center;
+        border-bottom: 2px solid #ccc;
+    }
+    .meal .meal-content img{
+        width: 100%;
+        border-radius: 23px;
+    }
+    .meal .meal-content h4{
+        color: #33124e;
+        font-weight: bold;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+    .meal .meal-content > p{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .meal .meal-content .meal-deatails{
+        font-size: 2.5rem;
+        color: #330754;;
+        text-align: right;
+        padding-bottom: 1.5rem;
+    } 
+    .meal .meal-content .meal-deatails p i{
+        font-size: 2.6rem;
+        margin-left: .4rem;
+        color:#000;
+    }
+    .meal .meal-content .meal-deatails p img{
+        width: 45px;
+        margin-left: .4rem;
+    }
+/* meal/information style */
+    .information {
+
+    }
+    .information .information-content{
+        width: 90%;
+        margin: 1.5rem auto;
+        text-align: center;
+    }
+    .information .information-content .btn-primary{
+        background: url("../images/download button-min.png");
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .6rem 4.5rem;
+        margin-top: 1.5rem;
+    }
+    .information .information-content .info {
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+        text-align: right;
+        display: flex;
+    }
+    .information .information-content .info p{  
+        font-size: 1.5rem;
+        color: #e44667;
+        
+    }
+    .information .information-content .info i{
+        color: #000;
+        font-size: 2.5rem;
+        margin-left: .6rem;
+    }
+    .information .information-content .modal .modal-content .modal-header{
+        display:block;
+        position: relative;
+        border: none;
+    }
+    .information .information-content .modal .modal-content .modal-header p{
+        color:#db2b52;
+        font-size: 2rem;
+    }
+    .information .information-content .modal .modal-content .modal-header .close{
+        opacity: 1;
+    }
+    .information .information-content .modal .modal-content .modal-header i{
+        position: absolute;
+        top: 27px;
+        left: 9px;
+        font-size: 3.5rem;
+        color: #000;
+    }
+    .information .information-content .modal .modal-content .modal-body{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .information .information-content .modal .modal-content .modal-body .btn-secondary{
+        background: #db2b52;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 5.5rem;
+        margin-top: 1.5rem;  
+    }
+/* meal/taqueem style */
+    .taqueem{
+
+    }
+    .taqueem .taqueem-content{
+        width: 90%;
+        margin: 1.5rem auto;
+        color: #dd4366;
+    }
+    .taqueem .taqueem-content h3,
+    .add-taqueem .add-taqueem-content h3,
+    .rest-eats h3{
+        border-right: 3px solid #000;
+        padding: .8rem;
+    }
+    .taqueem .taqueem-content > p{
+        color: #888;
+        padding-right: .9rem;
+    }
+    .taqueem .taqueem-content .people-taqueem{
+        background: #ececec;
+        padding: 1.5rem .8rem;
+        border-radius: 18px;
+        margin-bottom: 1.5rem; 
+    }
+    .taqueem .taqueem-content .people-taqueem p{
+
+    }
+    .taqueem .taqueem-content .people-taqueem .review,
+    .add-taqueem .add-taqueem-content .review{
+        background: #fff;
+        width: 30%;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: .7rem;
+        border-radius: 23px;
+        margin-right: 8.5rem;
+    }
+    .taqueem .taqueem-content .people-taqueem .review span,
+    .add-taqueem .add-taqueem-content .review span{
+        color: #33124e;
+    }
+    .taqueem .taqueem-content .people-taqueem .review span.checked,
+    .add-taqueem .add-taqueem-content .review span.checked{
+        color:#d42651;
+    }
+    .taqueem .taqueem-content .people-taqueem h5{
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+/* meal/add-taqueem style */
+    .add-taqueem .add-taqueem-content{
+        width: 90%;
+        margin: 1.5rem auto;
+        color: #dd4366; 
+        padding-top: 1.5rem; 
+        padding-bottom: 1.5rem;
+    }
+    .add-taqueem .add-taqueem-content .review{
+        background: #ececec;
+        width: 25%;
+        margin: 0 auto;
+    }
+    .add-taqueem .add-taqueem-content textarea{
+        width: 100%;
+        background: #ececec6b;
+        border: none;
+        border-radius: 23px;
+        height: 11.5rem;
+        padding: .9rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        resize: none;
+    }
+    .add-taqueem .add-taqueem-content .btn-primary{
+        background: #db2b52;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 23px;
+        padding: .5rem 5.5rem;
+        display: block;
+        margin: 0rem auto;
+    }
+/* meal/rest-eats style */
+    .rest-eats .rest-eats-content{
+
+    }
+    .rest-eats .rest-eats-content h3{
+        color:#e44667
+    }
+    .rest-eats .rest-eats-content .demos .owl-carousel{
+        position: relative;
+    }
+    .rest-eats .rest-eats-content .demos .owl-carousel img{
+        height: 189px;
+        border-radius: 23px;
+    }
+    .rest-eats .rest-eats-content .demos .owl-carousel .item .rest-details{
+        position: absolute;
+        background: rgba(0,0,0,.5);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        border-radius: 23px;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .rest-eats .rest-eats-content .demos .owl-carousel .item:hover .rest-details{
+        display: flex;
+    }
+    .rest-eats .rest-eats-content .demos .owl-carousel .rest-details a{
+        text-decoration: none;
+        color:#fff;
+    }
+    .rest-eats .rest-eats-content .demos .owl-theme .owl-nav{
+        display: none;
+    }
+    .rest-eats .rest-eats-content .demos .owl-theme .owl-dots{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .rest-eats .rest-eats-content .demos .owl-theme .owl-dots .owl-dot span{
+        width: 17px;
+        height: 17px;
+        background: #33124e;
+    }
+    .rest-eats .rest-eats-content .demos .owl-theme .owl-dots .owl-dot.active span{
+        background: #a40c4b;
+    }
+    @media only screen and (max-width:768px){
+        .add-taqueem .add-taqueem-content .review {
+            width: 37%;
+        }
+        .taqueem .taqueem-content .people-taqueem .review{
+            width: 36%;
+            margin-right: 12.5rem;
+        }
+        .nav-order .nav-order-content a {
+            font-size: 1.5rem;
+        }
+        .my-orders .my-orders-content {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .my-orders .my-orders-content img{
+            width: 30%;
+        }
+        .my-orders .my-orders-content .my-orders-btn {
+            margin-right: 0rem;
+        }
+        .my-orders .my-orders-content .my-orders-btn .btn-primary, 
+        .my-orders .my-orders-content .my-orders-btn .btn-secondary{
+            padding: 0.7rem 4.3rem;
+        }
+    }
+    
+/* responseve */
+
+    @media only screen and (max-width: 480px){
+        .meal .meal-content h4{
+            font-size: 1.7rem;
+        }
+        
+        .meal .meal-content .meal-deatails{
+            font-size: 1.3rem;
+        }
+        .meal .meal-content .meal-deatails p{
+            margin-bottom: .5rem;
+        }
+        .meal .meal-content .meal-deatails p img{
+            width: 33px;
+        }
+        .meal .meal-content .meal-deatails p i {
+            font-size: 2.1rem;
+        }
+        .information .information-content .btn-primary {
+            font-size: 1.1rem;
+        }
+        .information .information-content .info p{
+            font-size: 1.3rem;
+        }
+        .taqueem .taqueem-content .people-taqueem .review{
+            width: 80%;
+            margin-right: 2.5rem;
+        }
+        .taqueem .taqueem-content .people-taqueem{
+            text-align: center;
+        }
+        .add-taqueem .add-taqueem-content .review {
+            width: 75%;
+        }
+        .rest-eats h3{
+            font-size: 1.5rem;
+        }
+        .taqueem .taqueem-content h3, .add-taqueem .add-taqueem-content h3, .rest-eats h3{
+            font-size: 1.5rem;
+        }
+        .cart .cart-content {
+            width: 100%;
+        }
+        .cart .cart-content.ca h3 {
+            font-size: 1.3rem;
+            word-spacing: 0rem;
+            margin-bottom: 1.5rem;
+        }
+        .cart .cart-content.ca .btn-primary {
+            padding: .7rem 1.1rem;
+        }
+        .myacount .myacount-content input[type=submit]{
+            padding: 0.5rem 1.5rem;
+        }
+        .my-orders .my-orders-content {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-order .nav-order-content a{
+            font-size: .8rem;
+        }
+        .my-orders .my-orders-content img{
+            width: 50%;
+        }
+        .my-orders .my-orders-content .my-orders-btn {
+            margin-right: 0rem;
+        }
+        .my-orders .my-orders-content.current .my-orders-details {
+            text-align: center;
+        }
+        .my-orders .my-orders-content.current .my-orders-details .para{
+            padding-right: 0;
+            padding-top: 1rem;
+        }
+        .my-orders .my-orders-content.current .my-orders-details {
+            flex-direction: column;
+        }
+        .my-orders .my-orders-content .my-orders-details{
+            margin-right: 0;
+        }
+        .my-orders .my-orders-content img{
+            margin: auto;
+        }
+        .my-orders .my-orders-content.my-orders-content.current .my-orders-btn{
+            flex-direction: column;
+            margin-top: 1.5rem;
+        }
+        .my-orders .my-orders-content.my-orders-content.current .my-orders-btn .btn-primary{
+            margin-left: 0;
+            padding: .8rem 3.5rem;
+        }
+        .my-orders .my-orders-content.my-orders-content.current .my-orders-btn .btn-secondary{
+            margin-left: 0; 
+        }
+        .new-offer-new-product .new-offer-new-product-content .start-end p{
+            width: 35%;
+        }
+        .offer h1{
+            font-size: 2.3rem;
+        }
+        .new-offer-new-product .new-offer-new-product-content img {
+            width: 35%;
+        }
+        .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content > p{
+            text-align: center;
+            padding-right: 0rem;
+        }
+        .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content input[type=submit]{
+            padding: .5rem 3.5rem;
+        }
+        .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .btn-primary{
+            padding: .5rem 1.5rem;
+        }
+        .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-link {
+        flex-direction: column;
+        }
+        .new-offer-new-product.new-offer-new-product.register .new-offer-new-product-content .register-img{
+            padding-right: 2rem;
+        }
+        .resturent .resturent-content h1{
+            font-size: 2rem;
+        }
+    }

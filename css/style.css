@@ -1,0 +1,301 @@
+body{
+    font-family: cairo;
+    direction: rtl;
+}
+/* navbar style */
+    .navbar {
+    background: #ECECEC !important; 
+    }
+    .navbar .fa-user-circle,
+    .navbar .fa-shopping-cart,
+    .navbar .fa-hamburger{
+      color: #ED3655;
+     }
+    .navbar form {
+      position: relative;
+      padding-right: 3rem; 
+    }
+    .navbar-light .navbar-nav .active>.nav-link{
+      color: #ED3655;
+    }
+      .navbar form .fa-search {
+        position: absolute;
+        left: 1rem; 
+        color: #ED3655;
+    }
+      .navbar form input {
+        background: #F3F3F3; 
+    }
+    .navbar .form-control:focus {
+      background-color: #fff;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    }
+    .navbar li.nav-item {
+      padding-right: 3rem; 
+    }
+/* /navbar style */
+/* header style */
+    header{
+      background: url("../images/header-min.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+    header .header-content{
+      text-align: center;
+      padding-top: 4.5rem;
+      padding-bottom: 14.5rem;
+      color: #fff;
+    }
+    header .header-content h1{
+      transform: rotate(-31deg);
+      color: #fff;
+      margin-bottom: 4.3rem;
+      font-size: 11vw;
+    }
+    header .header-content h3{
+      padding-bottom: 1.3rem;
+    }
+    header .header-content a img{
+      width: 30%;
+}
+/* /header style */
+/* resturnt-kentaky style */
+  .resturnt-kentaky{
+    background: url("../images/Group 1034-min.png");
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .resturnt-kentaky .resturent-kentaky-inputs h2{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  .resturnt-kentaky .rest-input{
+    width: 80%;
+    background: #f1eded75;
+    margin: 1.5rem auto;
+    border-radius: 23px;
+  }
+  .resturnt-kentaky .rest-input input{
+    padding: 1rem;
+    width: 100%;
+    background: #f1eded75;
+    border: none;
+    border-radius: 23px;
+  }
+  .resturnt-kentaky .resturent-kentaky-content{
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+  }
+  .resturnt-kentaky .resturent-kentaky-content img{
+    width: 35%;
+  }
+  .resturnt-kentaky .resturent-kentaky-content .resturent-kentaky-details{
+    padding-top: 1.5rem;
+    padding-right: .5rem;
+
+  }
+  .resturnt-kentaky .resturent-kentaky-content .resturent-kentaky-details h3{
+    color: #ED3655;
+
+  }
+  .resturnt-kentaky .resturent-kentaky-content > p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4.5rem;
+    position: relative;
+  }
+  .resturnt-kentaky .resturent-kentaky-content > p::before{
+    content: '';
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 63px;
+    left: 114%;
+    border-radius: 50%;
+    background:green;
+
+  }
+/* /resturnt-kentaky style */
+/* sofra-offers style */
+  .sofra-offers{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sofra-offers .sofra-offers-content{
+    background: url("../images/offers-bg.jpg");
+    padding: 2.5rem 1.5rem;
+    color:#fff;
+    text-align: center;
+    border-radius: 33px;
+    margin-top: 8.5rem;
+  }
+  .sofra-offers .sofra-offers-img img{
+    width: 100%;
+  }
+  .sofra-offers .sofra-offers-content p{
+    line-height: 2.5rem;
+    word-spacing: .2rem;
+    font-size: 1.5rem;
+  }
+  .sofra-offers .sofra-offers-content .btn-primary,
+  .download-app .download-app-content .btn-primary{
+    background: #ad104b;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 23px;
+    padding: .7rem 3.5rem;
+    margin-top: 1.5rem;
+  }
+/* /sofra-offers style */
+/* download-app  style */
+  .download-app{
+    color:#fff;
+    background: url("../images/our-app.png");
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .download-app .download-app-content h2{
+    font-size: 2.3rem;
+    margin-bottom: 3.5rem;
+
+  }
+  .download-app .download-app-content .btn-primary{
+    background: url("../images/download button-min.png");
+    padding: .7rem 6.5rem;
+    font-size: 2.3rem;
+  }
+  .download-app .download-app-img{
+    background: url("../images/app mockup-min.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 28rem;
+
+
+  }
+/* footer style */
+  footer{
+    background: url("../images/footer bg.png");
+    color:#fff;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+  }
+  footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  footer .footer-content .footer-about{
+    display: flex;
+  }
+  footer .footer-content .footer-about h4{
+    padding-right: .8rem;
+    margin-top: 1.5rem;
+    vertical-align: middle;
+
+  }
+  footer .footer-content .footer-about img{
+    width: 8%;
+  }
+  footer .footer-content p{
+    width: 46%;
+    padding-top: .8rem;
+  }
+  footer .footer-content > img{
+    width: 23%;
+    height: 23%;
+    
+}
+footer a{
+  color:#fff;
+}footer .footer-icons i {
+  padding: .7rem ;
+  
+}
+footer .footer-icons  a:hover{
+  transition: all .5s ease-in-out;
+  
+}
+footer .footer-icons  .ins:hover{
+  color:#f443366b;
+  font-size: 1.1rem;
+}
+footer .footer-icons  .face:hover{
+  color:#4153d0;
+  font-size: 1.1rem;
+}
+
+footer .footer-icons  .twitter:hover{
+  color:#5087cc;
+  font-size: 1.1rem;
+}
+/* responsive */
+  @media only screen and (max-width: 1023px){
+    header{
+      background-size: cover;
+    }
+    .resturnt-kentaky .resturent-kentaky-content > p::before{
+      top:92px;
+    }
+    .download-app .download-app-content{
+      text-align: center;
+    }
+    .download-app .download-app-img{
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 22rem;
+    }
+    .sofra-offers .sofra-offers-content {
+      margin-top: 2.5rem;
+    }
+  }
+  @media only screen and (max-width: 480px){
+  
+    header .header-content{
+      padding-bottom: 3.5rem;
+    }
+    header .header-content a img {
+      width: 61%;
+    }
+    .resturnt-kentaky .resturent-kentaky-inputs h2{
+      font-size: 1.5rem;
+    }
+    .resturnt-kentaky .resturent-kentaky-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .resturnt-kentaky .resturent-kentaky-content img {
+      width: 50%;
+    }
+    .resturnt-kentaky .resturent-kentaky-content > p::before{
+      top:0;
+    }
+    
+    .sofra-offers .sofra-offers-content .btn-primary{
+      font-size: 1.3rem;
+    }
+    .download-app{
+      padding-bottom: 0rem;
+    }
+    
+    .download-app .download-app-content h2{
+      font-size: 1.5rem;
+    }
+    .download-app .download-app-content .btn-primary{
+      font-size: 1.3rem;
+      margin: auto;
+    }
+  
+  }
+
